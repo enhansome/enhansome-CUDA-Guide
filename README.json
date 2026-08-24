@@ -65,10 +65,499 @@
         }
       ],
       "title": "A guide covering CUDA including the applications and tools that will make you a better and more efficient CUDA developer."
+    },
+    {
+      "description": "CUDA Toolkit is a collection of tools & libraries that provide a development environment for creating high performance GPU-accelerated applications. The CUDA Toolkit allows you can develop, optimize, and deploy your applications on GPU-accelerated embedded systems, desktop workstations, enterprise data centers, cloud-based platforms and HPC supercomputers. The toolkit includes GPU-accelerated libraries, debugging and optimization tools, a C/C++ compiler, and a runtime library to build and deploy your application on major architectures including x86, Arm and POWER.\nNVIDIA cuDNN is a GPU-accelerated library of primitives for deep neural networks. cuDNN provides highly tuned implementations for standard routines such as forward and backward convolution, pooling, normalization, and activation layers. cuDNN accelerates widely used deep learning frameworks, including Caffe2, Chainer, Keras, MATLAB, MxNet, PyTorch, and TensorFlow.\nCUDA-X HPC is a collection of libraries, tools, compilers and APIs that help developers solve the world's most challenging problems. CUDA-X HPC includes highly tuned kernels essential for high-performance computing (HPC).\nMinkowski Engine is an auto-differentiation library for sparse tensors. It supports all standard neural network layers such as convolution, pooling, unpooling, and broadcasting operations for sparse tensors.\nChainer is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks. It also supports CUDA/cuDNN using CuPy for high performance training and inference.\nCuPy is an implementation of NumPy-compatible multi-dimensional array on CUDA. CuPy consists of the core multi-dimensional array class, cupy.ndarray, and many functions on it. It supports a subset of numpy.ndarray interface.\nCatBoost is a fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regression and other machine learning tasks for Python, R, Java, C++. Supports computation on CPU and GPU.\ncuDF is a GPU DataFrame library for loading, joining, aggregating, filtering, and otherwise manipulating data. cuDF provides a pandas-like API that will be familiar to data engineers & data scientists, so they can use it to easily accelerate their workflows without going into the details of CUDA programming.\nArrayFire is a general-purpose library that simplifies the process of developing software that targets parallel and massively-parallel architectures including CPUs, GPUs, and other hardware acceleration devices.\nAresDB is a GPU-powered real-time analytics storage and query engine. It features low query latency, high data freshness and highly efficient in-memory and on disk storage management.\nArraymancer is a tensor (N-dimensional array) project in Nim. The main focus is providing a fast and ergonomic CPU, Cuda and OpenCL ndarray library on which to build a scientific computing ecosystem.\nGraphVite is a general graph embedding engine, dedicated to high-speed and large-scale embedding learning in various applications.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "NVIDIA Container Toolkit",
+          "description": "is a collection of tools & libraries that allows users to build and run GPU accelerated Docker containers. The toolkit includes a container runtime library and utilities to automatically configure containers to leverage NVIDIA GPUs.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 45557469,
+            "language": null,
+            "last_commit": "2023-12-06T09:16:49Z",
+            "owner": "NVIDIA",
+            "repo": "nvidia-docker",
+            "stars": 17591
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CUTLASS",
+          "description": "is a collection of CUDA C++ template abstractions for implementing high-performance matrix-multiplication (GEMM) at all levels and scales within CUDA. It incorporates strategies for hierarchical decomposition and data movement similar to those used to implement cuBLAS.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 112542515,
+            "language": "C++",
+            "last_commit": "2026-08-20T10:37:54Z",
+            "owner": "NVIDIA",
+            "repo": "cutlass",
+            "stars": 10292
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CUB",
+          "description": "is a cooperative primitives for CUDA C++ kernel authors.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 8225159,
+            "language": "Cuda",
+            "last_commit": "2023-10-09T17:44:21Z",
+            "owner": "NVIDIA",
+            "repo": "cub",
+            "stars": 1842
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Tensorman",
+          "description": "is a utility for easy management of Tensorflow containers by developed by System76.Tensorman allows Tensorflow to operate in an isolated environment that is contained from the rest of the system. This virtual environment can operate independent of the base system, allowing you to use any version of Tensorflow on any version of a Linux distribution that supports the Docker runtime.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 202021804,
+            "language": "Rust",
+            "last_commit": "2025-10-27T18:21:52Z",
+            "owner": "pop-os",
+            "repo": "tensorman",
+            "stars": 206
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Numba",
+          "description": "is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 3659275,
+            "language": "Python",
+            "last_commit": "2026-08-21T17:39:56Z",
+            "owner": "numba",
+            "repo": "numba",
+            "stars": 11126
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "cuML",
+          "description": "is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 152616802,
+            "language": "Python",
+            "last_commit": "2026-08-22T15:05:11Z",
+            "owner": "NVIDIA",
+            "repo": "cuml",
+            "stars": 5260
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Thrust",
+          "description": "is a C++ parallel programming library which resembles the C++ Standard Library. Thrust's high-level interface greatly enhances programmer productivity while enabling performance portability between GPUs and multicore CPUs.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 3633213,
+            "language": "C++",
+            "last_commit": "2024-02-08T15:54:40Z",
+            "owner": "NVIDIA",
+            "repo": "thrust",
+            "stars": 5002
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Kintinuous",
+          "description": "is a real-time dense visual SLAM system capable of producing high quality globally consistent point and mesh reconstructions over hundreds of metres in real-time with only a low-cost commodity RGB-D sensor.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 44748381,
+            "language": "C++",
+            "last_commit": "2022-08-26T16:45:24Z",
+            "owner": "mp3guy",
+            "repo": "Kintinuous",
+            "stars": 954
+          }
+        }
+      ],
+      "title": "CUDA Tools"
+    },
+    {
+      "description": "AWS SDK for C++\nVisual Studio is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.\nVisual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.\nReSharper C++ is a Visual Studio Extension for C++ developers developed by JetBrains.\nAppCode is constantly monitoring the quality of your code. It warns you of errors and smells and suggests quick-fixes to resolve them automatically. AppCode provides lots of code inspections for Objective-C, Swift, C/C++, and a number of code inspections for other supported languages. All code inspections are run on the fly.\nCLion is a cross-platform IDE for C and C++ developers developed by JetBrains.\nCode::Blocks is a free C/C++ and Fortran IDE built to meet the most demanding needs of its users. It is designed to be very extensible and fully configurable. Built around a plugin framework, Code::Blocks can be extended with plugins.\nConan is an Open Source Package Manager for C++ development and dependency management into the 21st century and on par with the other development ecosystems.\nHigh Performance Computing (HPC) SDK is a comprehensive toolbox for GPU accelerating HPC modeling and simulation applications. It includes the C, C++, and Fortran compilers, libraries, and analysis tools necessary for developing HPC applications on the NVIDIA platform.\nBoost is an educational opportunity focused on cutting-edge C++. Boost has been a participant in the annual Google Summer of Code since 2007, in which students develop their skills by working on Boost Library development.\nAutomake is a tool for automatically generating Makefile.in files compliant with the GNU Coding Standards. Automake requires the use of GNU Autoconf.\nCmake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice.\nGDB is a debugger, that allows you to see what is going on `inside' another program while it executes or what another program was doing at the moment it crashed.\nGCC is a compiler Collection that includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages.\nGSL is a numerical library for C and C++ programmers. It is free software under the GNU General Public License. The library provides a wide range of mathematical routines such as random number generators, special functions and least-squares fitting. There are over 1000 functions in total with an extensive test suite.\nOpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform.\nLibtool is a generic library support script that hides the complexity of using shared libraries behind a consistent, portable interface. To use Libtool, add the new generic library building commands to your Makefile, Makefile.in, or Makefile.am.\nMaven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.\nTAU (Tuning And Analysis Utilities) is capable of gathering performance information through instrumentation of functions, methods, basic blocks, and statements as well as event-based sampling. All C++ language features are supported including templates and namespaces.\nClang is a production quality C, Objective-C, C++ and Objective-C++ compiler when targeting X86-32, X86-64, and ARM (other targets may have caveats, but are usually easy to fix). Clang is used in production to build performance-critical software like Google Chrome or Firefox.\nOpenCV is a highly optimized library with focus on real-time applications. Cross-Platform C++, Python and Java interfaces support Linux, MacOS, Windows, iOS, and Android.\nLibcu++ is the NVIDIA C++ Standard Library for your entire system. It provides a heterogeneous implementation of the C++ Standard Library that can be used in and between CPU and GPU code.\nANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files. It's widely used to build languages, tools, and frameworks. From a grammar, ANTLR generates a parser that can build parse trees and also generates a listener interface that makes it easy to respond to the recognition of phrases of interest.\nOat++ is a light and powerful C++ web framework for highly scalable and resource-efficient web application. It's zero-dependency and easy-portable.\nCython is a language that makes writing C extensions for Python as easy as Python itself. Cython is based on Pyrex, but supports more cutting edge functionality and optimizations such as calling C functions and declaring C types on variables and class attributes.\nInfer is a static analysis tool for Java, C++, Objective-C, and C. Infer is written in OCaml.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Azure SDK for C++",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 233147271,
+            "language": "C++",
+            "last_commit": "2026-08-24T06:44:07Z",
+            "owner": "Azure",
+            "repo": "azure-sdk-for-cpp",
+            "stars": 204
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Azure SDK for C",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 195472455,
+            "language": "C",
+            "last_commit": "2026-07-15T18:38:48Z",
+            "owner": "Azure",
+            "repo": "azure-sdk-for-c",
+            "stars": 242
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "C++ Client Libraries for Google Cloud Services",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 111860063,
+            "language": "C++",
+            "last_commit": "2026-08-24T14:35:43Z",
+            "owner": "googleapis",
+            "repo": "google-cloud-cpp",
+            "stars": 659
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Vcpkg",
+          "description": "is a C++ Library Manager for Windows, Linux, and MacOS.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 68312233,
+            "language": "CMake",
+            "last_commit": "2026-08-24T11:17:53Z",
+            "owner": "microsoft",
+            "repo": "vcpkg",
+            "stars": 27390
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CppSharp",
+          "description": "is a tool and set of libraries which facilitates the usage of native C/C++ code with the .NET ecosystem. It consumes C/C++ header and library files and generates the necessary glue code to surface the native API as a managed API. Such an API can be used to consume an existing native library in your managed code or add managed scripting support to a native codebase.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 9988318,
+            "language": "C#",
+            "last_commit": "2026-05-18T12:47:02Z",
+            "owner": "mono",
+            "repo": "CppSharp",
+            "stars": 3403
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Thrust",
+          "description": "is a C++ parallel programming library which resembles the C++ Standard Library. Thrust's high-level interface greatly enhances programmer productivity while enabling performance portability between GPUs and multicore CPUs. Interoperability with established technologies such as CUDA, TBB, and OpenMP integrates with existing software.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 3633213,
+            "language": "C++",
+            "last_commit": "2024-02-08T15:54:40Z",
+            "owner": "NVIDIA",
+            "repo": "thrust",
+            "stars": 5002
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "JavaCPP",
+          "description": "is a program that provides efficient access to native C++ inside Java, not unlike the way some C/C++ compilers interact with assembly language.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 18992193,
+            "language": "Java",
+            "last_commit": "2026-08-10T23:19:17Z",
+            "owner": "bytedeco",
+            "repo": "javacpp",
+            "stars": 4705
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Spdlog",
+          "description": "is a very fast, header-only/compiled, C++ logging library.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 26038648,
+            "language": "C++",
+            "last_commit": "2026-08-08T10:51:08Z",
+            "owner": "gabime",
+            "repo": "spdlog",
+            "stars": 29520
+          }
+        }
+      ],
+      "title": "C/C++ Tools"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "The Python Open Source Computer Science Degree by Forrest Knight",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 289710302,
+                "language": null,
+                "last_commit": "2025-06-11T17:17:33Z",
+                "owner": "ForrestKnight",
+                "repo": "open-source-cs-python",
+                "stars": 3959
+              }
+            }
+          ],
+          "description": "Python is an interpreted, high-level programming language. Python is used heavily in the fields of Data Science and Machine Learning.\nPython Developer’s Guide is a comprehensive resource for contributing to Python – for both new and experienced contributors. It is maintained by the same community that maintains Python.\nAzure Functions Python developer guide is an introduction to developing Azure Functions using Python. The content below assumes that you've already read the Azure Functions developers guide.\nCheckiO is a programming learning platform and a gamified website that teaches Python through solving code challenges and competing for the most elegant and creative solutions.\nPython Institute\nPCEP – Certified Entry-Level Python Programmer certification\nPCAP – Certified Associate in Python Programming certification\nPCPP – Certified Professional in Python Programming 1 certification\nPCPP – Certified Professional in Python Programming 2\nMTA: Introduction to Programming Using Python Certification\nGetting Started with Python in Visual Studio Code\nGoogle's Python Style Guide\nGoogle's Python Education Class\nReal Python\nIntro to Python for Data Science\nIntro to Python by W3schools\nCodecademy's Python 3 course\nLearn Python with Online Courses and Classes from edX\nPython Courses Online from Coursera",
+          "node_type": "group",
+          "title": "Python Learning Resources"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Pylance",
+              "description": "is an extension that works alongside Python in Visual Studio Code to provide performant language support. Under the hood, Pylance is powered by Pyright, Microsoft's static type checking tool.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 265902625,
+                "language": "Python",
+                "last_commit": "2026-08-18T16:10:27Z",
+                "owner": "microsoft",
+                "repo": "pylance-release",
+                "stars": 2113
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Pyright",
+              "description": "is a fast type checker meant for large Python source bases. It can run in a “watch” mode and performs fast incremental updates when files are modified.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 175129788,
+                "language": "Python",
+                "last_commit": "2026-08-22T01:26:26Z",
+                "owner": "microsoft",
+                "repo": "pyright",
+                "stars": 15596
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AWS Chalice",
+              "description": "is a framework for writing serverless apps in python. It allows you to quickly create and deploy applications that use AWS Lambda.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 59868262,
+                "language": "Python",
+                "last_commit": "2026-08-12T15:03:00Z",
+                "owner": "aws",
+                "repo": "chalice",
+                "stars": 11061
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "HTTPie",
+              "description": "is a command line HTTP client that makes CLI interaction with web services as easy as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 3544424,
+                "language": "Python",
+                "last_commit": "2024-12-17T17:30:35Z",
+                "owner": "httpie",
+                "repo": "cli",
+                "stars": 38446
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Pipenv",
+              "description": "is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 79510167,
+                "language": "Python",
+                "last_commit": "2026-08-21T02:43:02Z",
+                "owner": "pypa",
+                "repo": "pipenv",
+                "stars": 25039
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Python Fire",
+              "description": "is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 82729529,
+                "language": "Python",
+                "last_commit": "2026-07-01T08:19:02Z",
+                "owner": "google",
+                "repo": "python-fire",
+                "stars": 28205
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Bottle",
+              "description": "is a fast, simple and lightweight WSGI micro web-framework for Python. It is distributed as a single file module and has no dependencies other than the Python Standard Library.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 239940,
+                "language": "Python",
+                "last_commit": "2026-07-19T07:21:52Z",
+                "owner": "bottlepy",
+                "repo": "bottle",
+                "stars": 8776
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Sanic",
+              "description": "is a Python 3.6+ web server and web framework that's written to go fast.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 59720190,
+                "language": "Python",
+                "last_commit": "2026-07-29T03:09:51Z",
+                "owner": "sanic-org",
+                "repo": "sanic",
+                "stars": 18643
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Neural Network Intelligence(NNI)",
+              "description": "is an open source AutoML toolkit for automate machine learning lifecycle, including Feature Engineering, Neural Architecture Search, Model Compression and Hyperparameter Tuning.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 135673451,
+                "language": "Python",
+                "last_commit": "2024-07-03T10:55:10Z",
+                "owner": "microsoft",
+                "repo": "nni",
+                "stars": 14362
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Luigi",
+              "description": "is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built-in.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 5888353,
+                "language": "Python",
+                "last_commit": "2026-07-18T11:15:46Z",
+                "owner": "spotify",
+                "repo": "luigi",
+                "stars": 18765
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Locust",
+              "description": "is an easy to use, scriptable and scalable performance testing tool.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1377867,
+                "language": "Python",
+                "last_commit": "2026-08-24T09:06:41Z",
+                "owner": "locustio",
+                "repo": "locust",
+                "stars": 28094
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "spaCy",
+              "description": "is a library for advanced Natural Language Processing in Python and Cython.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 21467110,
+                "language": "Python",
+                "last_commit": "2026-08-24T08:26:10Z",
+                "owner": "explosion",
+                "repo": "spaCy",
+                "stars": 33840
+              }
+            }
+          ],
+          "description": "Python Package Index (PyPI) is a repository of software for the Python programming language. PyPI helps you find and install software developed and shared by the Python community.\nPyCharm is the best IDE I've ever used. With PyCharm, you can access the command line, connect to a database, create a virtual environment, and manage your version control system all in one place, saving time by avoiding constantly switching between windows.\nPython Tools for Visual Studio(PTVS) is a free, open source plugin that turns Visual Studio into a Python IDE. It supports editing, browsing, IntelliSense, mixed Python/C++ debugging, remote Linux/MacOS debugging, profiling, IPython, and web development with Django and other frameworks.\nDjango is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\nFlask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.\nWeb2py is an open-source web application framework written in Python allowing allows web developers to program dynamic web content. One web2py instance can run multiple web sites using different databases.\nTornado is a Python web framework and asynchronous networking library. Tornado uses a non-blocking network I/O, which can scale to tens of thousands of open connections.\nScrapy is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing.\nSentry is a service that helps you monitor and fix crashes in realtime. The server is in Python, but it contains a full API for sending events from any language, in any application.\nCherryPy is a minimalist Python object-oriented HTTP web framework.\nPyramid is a small and fast open source Python web framework. It makes real-world web application development and deployment more fun and more productive.\nTurboGears is a hybrid web framework able to act both as a Full Stack framework or as a Microframework.\nFalcon is a reliable, high-performance Python web framework for building large-scale app backends and microservices with support for MongoDB, Pluggable Applications and autogenerated Admin.\nDash is a popular Python framework for building ML & data science web apps for Python, R, Julia, and Jupyter.\nNumPy is the fundamental package needed for scientific computing with Python.\nPillow is a friendly PIL(Python Imaging Library) fork.\nIPython is a command shell for interactive computing in multiple programming languages, originally developed for the Python programming language, that offers enhanced introspection, rich media, additional shell syntax, tab completion, and rich history.\nGraphLab Create is a Python library, backed by a C++ engine, for quickly building large-scale, high-performance machine learning models.\nPandas is a fast, powerful, and easy to use open source data structrures, data analysis and manipulation tool, built on top of the Python programming language.\nPuLP is an Linear Programming modeler written in python. PuLP can generate LP files and call on use highly optimized solvers, GLPK, COIN CLP/CBC, CPLEX, and GUROBI, to solve these linear problems.\nMatplotlib is a 2D plotting library for creating static, animated, and interactive visualizations in Python. Matplotlib produces publication-quality figures in a variety of hardcopy formats and interactive environments across platforms.\nScikit-Learn is a simple and efficient tool for data mining and data analysis. It is built on NumPy,SciPy, and mathplotlib.",
+          "node_type": "group",
+          "title": "Python Frameworks and Tools"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "If would you like to contribute to this guide simply make a Pull Request",
+              "description": ".",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 298657618,
+                "language": "Cuda",
+                "last_commit": "2024-01-04T22:16:44Z",
+                "owner": "mikeroyal",
+                "repo": "CUDA-Guide",
+                "stars": 81
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Contribute"
+        }
+      ],
+      "title": "Python Development"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T04:29:17.652Z",
+    "last_updated": "2026-08-24T14:44:29.456Z",
     "original_repository": "mikeroyal/CUDA-Guide",
     "original_repository_id": 298657618,
     "original_repository_sha": "1af80ec8e9ff873f74258123382b2fcc877e09e9",
