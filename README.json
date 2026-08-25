@@ -138,7 +138,7 @@
             "archived": false,
             "id": 3659275,
             "language": "Python",
-            "last_commit": "2026-08-21T17:39:56Z",
+            "last_commit": "2026-08-25T06:02:21Z",
             "owner": "numba",
             "repo": "numba",
             "stars": 11127
@@ -156,7 +156,7 @@
             "last_commit": "2026-08-25T00:45:05Z",
             "owner": "NVIDIA",
             "repo": "cuml",
-            "stars": 5260
+            "stars": 5261
           }
         },
         {
@@ -234,7 +234,7 @@
             "archived": false,
             "id": 111860063,
             "language": "C++",
-            "last_commit": "2026-08-25T04:20:49Z",
+            "last_commit": "2026-08-25T06:29:14Z",
             "owner": "googleapis",
             "repo": "google-cloud-cpp",
             "stars": 659
@@ -252,7 +252,7 @@
             "last_commit": "2026-08-25T01:20:49Z",
             "owner": "microsoft",
             "repo": "vcpkg",
-            "stars": 27392
+            "stars": 27391
           }
         },
         {
@@ -354,7 +354,7 @@
                 "archived": false,
                 "id": 265902625,
                 "language": "Python",
-                "last_commit": "2026-08-25T00:48:47Z",
+                "last_commit": "2026-08-25T06:18:25Z",
                 "owner": "microsoft",
                 "repo": "pylance-release",
                 "stars": 2113
@@ -447,7 +447,7 @@
                 "last_commit": "2026-07-19T07:21:52Z",
                 "owner": "bottlepy",
                 "repo": "bottle",
-                "stars": 8776
+                "stars": 8778
               }
             },
             {
@@ -507,7 +507,7 @@
                 "last_commit": "2026-08-24T09:06:41Z",
                 "owner": "locustio",
                 "repo": "locust",
-                "stars": 28096
+                "stars": 28097
               }
             },
             {
@@ -522,7 +522,7 @@
                 "last_commit": "2026-08-24T08:26:10Z",
                 "owner": "explosion",
                 "repo": "spaCy",
-                "stars": 33840
+                "stars": 33841
               }
             }
           ],
@@ -557,7 +557,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T04:23:37.786Z",
+    "last_updated": "2026-08-25T06:35:28.212Z",
     "original_repository": "mikeroyal/CUDA-Guide",
     "original_repository_id": 298657618,
     "original_repository_sha": "1af80ec8e9ff873f74258123382b2fcc877e09e9",
