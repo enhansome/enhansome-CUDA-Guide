@@ -138,10 +138,10 @@
             "archived": false,
             "id": 3659275,
             "language": "Python",
-            "last_commit": "2026-08-26T00:16:18Z",
+            "last_commit": "2026-08-27T13:53:01Z",
             "owner": "numba",
             "repo": "numba",
-            "stars": 11130
+            "stars": 11131
           }
         },
         {
@@ -153,7 +153,7 @@
             "archived": false,
             "id": 152616802,
             "language": "Python",
-            "last_commit": "2026-08-27T11:34:27Z",
+            "last_commit": "2026-08-27T14:33:33Z",
             "owner": "NVIDIA",
             "repo": "cuml",
             "stars": 5264
@@ -234,7 +234,7 @@
             "archived": false,
             "id": 111860063,
             "language": "C++",
-            "last_commit": "2026-08-27T09:52:35Z",
+            "last_commit": "2026-08-27T14:07:53Z",
             "owner": "googleapis",
             "repo": "google-cloud-cpp",
             "stars": 659
@@ -372,7 +372,7 @@
                 "last_commit": "2026-08-27T01:42:47Z",
                 "owner": "microsoft",
                 "repo": "pyright",
-                "stars": 15600
+                "stars": 15601
               }
             },
             {
@@ -402,7 +402,7 @@
                 "last_commit": "2024-12-17T17:30:35Z",
                 "owner": "httpie",
                 "repo": "cli",
-                "stars": 38460
+                "stars": 38461
               }
             },
             {
@@ -492,7 +492,7 @@
                 "last_commit": "2026-07-18T11:15:46Z",
                 "owner": "spotify",
                 "repo": "luigi",
-                "stars": 18765
+                "stars": 18766
               }
             },
             {
@@ -557,7 +557,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:34:44.406Z",
+    "last_updated": "2026-08-27T14:46:55.439Z",
     "original_repository_info": {
       "archived": false,
       "id": 298657618,
