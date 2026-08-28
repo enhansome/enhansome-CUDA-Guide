@@ -16,7 +16,8 @@
             "owner": "mikeroyal",
             "repo": "CUDA-Guide",
             "stars": 81
-          }
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -31,7 +32,8 @@
             "owner": "mikeroyal",
             "repo": "CUDA-Guide",
             "stars": 81
-          }
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -46,7 +48,8 @@
             "owner": "mikeroyal",
             "repo": "CUDA-Guide",
             "stars": 81
-          }
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -61,7 +64,8 @@
             "owner": "mikeroyal",
             "repo": "CUDA-Guide",
             "stars": 81
-          }
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         }
       ],
       "title": "A guide covering CUDA including the applications and tools that will make you a better and more efficient CUDA developer."
@@ -81,8 +85,9 @@
             "last_commit": "2023-12-06T09:16:49Z",
             "owner": "NVIDIA",
             "repo": "nvidia-docker",
-            "stars": 17590
-          }
+            "stars": 17591
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -93,11 +98,12 @@
             "archived": false,
             "id": 112542515,
             "language": "C++",
-            "last_commit": "2026-08-27T07:28:38Z",
+            "last_commit": "2026-08-28T08:54:06Z",
             "owner": "NVIDIA",
             "repo": "cutlass",
-            "stars": 10323
-          }
+            "stars": 10335
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -112,7 +118,8 @@
             "owner": "NVIDIA",
             "repo": "cub",
             "stars": 1842
-          }
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -127,7 +134,8 @@
             "owner": "pop-os",
             "repo": "tensorman",
             "stars": 206
-          }
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -138,11 +146,12 @@
             "archived": false,
             "id": 3659275,
             "language": "Python",
-            "last_commit": "2026-08-27T13:53:01Z",
+            "last_commit": "2026-08-28T12:19:51Z",
             "owner": "numba",
             "repo": "numba",
             "stars": 11131
-          }
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -153,11 +162,12 @@
             "archived": false,
             "id": 152616802,
             "language": "Python",
-            "last_commit": "2026-08-27T14:33:33Z",
+            "last_commit": "2026-08-28T14:53:06Z",
             "owner": "NVIDIA",
             "repo": "cuml",
-            "stars": 5264
-          }
+            "stars": 5266
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -172,7 +182,8 @@
             "owner": "NVIDIA",
             "repo": "thrust",
             "stars": 5002
-          }
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -187,7 +198,8 @@
             "owner": "mp3guy",
             "repo": "Kintinuous",
             "stars": 954
-          }
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         }
       ],
       "title": "CUDA Tools"
@@ -204,11 +216,12 @@
             "archived": false,
             "id": 233147271,
             "language": "C++",
-            "last_commit": "2026-08-26T23:18:07Z",
+            "last_commit": "2026-08-27T23:19:42Z",
             "owner": "Azure",
             "repo": "azure-sdk-for-cpp",
             "stars": 205
-          }
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -223,7 +236,8 @@
             "owner": "Azure",
             "repo": "azure-sdk-for-c",
             "stars": 242
-          }
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -234,11 +248,12 @@
             "archived": false,
             "id": 111860063,
             "language": "C++",
-            "last_commit": "2026-08-27T14:07:53Z",
+            "last_commit": "2026-08-28T15:38:59Z",
             "owner": "googleapis",
             "repo": "google-cloud-cpp",
             "stars": 659
-          }
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -249,11 +264,12 @@
             "archived": false,
             "id": 68312233,
             "language": "CMake",
-            "last_commit": "2026-08-26T19:17:53Z",
+            "last_commit": "2026-08-28T05:39:48Z",
             "owner": "microsoft",
             "repo": "vcpkg",
-            "stars": 27403
-          }
+            "stars": 27402
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -267,8 +283,9 @@
             "last_commit": "2026-05-18T12:47:02Z",
             "owner": "mono",
             "repo": "CppSharp",
-            "stars": 3406
-          }
+            "stars": 3405
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -283,7 +300,8 @@
             "owner": "NVIDIA",
             "repo": "thrust",
             "stars": 5002
-          }
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -298,7 +316,8 @@
             "owner": "bytedeco",
             "repo": "javacpp",
             "stars": 4705
-          }
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         },
         {
           "node_type": "item",
@@ -312,8 +331,9 @@
             "last_commit": "2026-08-08T10:51:08Z",
             "owner": "gabime",
             "repo": "spdlog",
-            "stars": 29530
-          }
+            "stars": 29535
+          },
+          "first_seen": "2026-08-28T15:41:02.816Z"
         }
       ],
       "title": "C/C++ Tools"
@@ -336,7 +356,8 @@
                 "owner": "ForrestKnight",
                 "repo": "open-source-cs-python",
                 "stars": 3961
-              }
+              },
+              "first_seen": "2026-08-28T15:41:02.816Z"
             }
           ],
           "description": "Python is an interpreted, high-level programming language. Python is used heavily in the fields of Data Science and Machine Learning.\nPython Developer’s Guide is a comprehensive resource for contributing to Python – for both new and experienced contributors. It is maintained by the same community that maintains Python.\nAzure Functions Python developer guide is an introduction to developing Azure Functions using Python. The content below assumes that you've already read the Azure Functions developers guide.\nCheckiO is a programming learning platform and a gamified website that teaches Python through solving code challenges and competing for the most elegant and creative solutions.\nPython Institute\nPCEP – Certified Entry-Level Python Programmer certification\nPCAP – Certified Associate in Python Programming certification\nPCPP – Certified Professional in Python Programming 1 certification\nPCPP – Certified Professional in Python Programming 2\nMTA: Introduction to Programming Using Python Certification\nGetting Started with Python in Visual Studio Code\nGoogle's Python Style Guide\nGoogle's Python Education Class\nReal Python\nIntro to Python for Data Science\nIntro to Python by W3schools\nCodecademy's Python 3 course\nLearn Python with Online Courses and Classes from edX\nPython Courses Online from Coursera",
@@ -354,11 +375,12 @@
                 "archived": false,
                 "id": 265902625,
                 "language": "Python",
-                "last_commit": "2026-08-26T05:12:51Z",
+                "last_commit": "2026-08-28T10:47:05Z",
                 "owner": "microsoft",
                 "repo": "pylance-release",
-                "stars": 2115
-              }
+                "stars": 2116
+              },
+              "first_seen": "2026-08-28T15:41:02.816Z"
             },
             {
               "node_type": "item",
@@ -369,11 +391,12 @@
                 "archived": false,
                 "id": 175129788,
                 "language": "Python",
-                "last_commit": "2026-08-27T01:42:47Z",
+                "last_commit": "2026-08-28T12:46:51Z",
                 "owner": "microsoft",
                 "repo": "pyright",
-                "stars": 15601
-              }
+                "stars": 15604
+              },
+              "first_seen": "2026-08-28T15:41:02.816Z"
             },
             {
               "node_type": "item",
@@ -387,8 +410,9 @@
                 "last_commit": "2026-08-12T15:03:00Z",
                 "owner": "aws",
                 "repo": "chalice",
-                "stars": 11061
-              }
+                "stars": 11060
+              },
+              "first_seen": "2026-08-28T15:41:02.816Z"
             },
             {
               "node_type": "item",
@@ -402,8 +426,9 @@
                 "last_commit": "2024-12-17T17:30:35Z",
                 "owner": "httpie",
                 "repo": "cli",
-                "stars": 38461
-              }
+                "stars": 38464
+              },
+              "first_seen": "2026-08-28T15:41:02.816Z"
             },
             {
               "node_type": "item",
@@ -417,8 +442,9 @@
                 "last_commit": "2026-08-24T22:09:52Z",
                 "owner": "pypa",
                 "repo": "pipenv",
-                "stars": 25035
-              }
+                "stars": 25034
+              },
+              "first_seen": "2026-08-28T15:41:02.816Z"
             },
             {
               "node_type": "item",
@@ -432,8 +458,9 @@
                 "last_commit": "2026-07-01T08:19:02Z",
                 "owner": "google",
                 "repo": "python-fire",
-                "stars": 28209
-              }
+                "stars": 28212
+              },
+              "first_seen": "2026-08-28T15:41:02.816Z"
             },
             {
               "node_type": "item",
@@ -447,8 +474,9 @@
                 "last_commit": "2026-07-19T07:21:52Z",
                 "owner": "bottlepy",
                 "repo": "bottle",
-                "stars": 8779
-              }
+                "stars": 8778
+              },
+              "first_seen": "2026-08-28T15:41:02.816Z"
             },
             {
               "node_type": "item",
@@ -462,8 +490,9 @@
                 "last_commit": "2026-07-29T03:09:51Z",
                 "owner": "sanic-org",
                 "repo": "sanic",
-                "stars": 18645
-              }
+                "stars": 18646
+              },
+              "first_seen": "2026-08-28T15:41:02.816Z"
             },
             {
               "node_type": "item",
@@ -478,7 +507,8 @@
                 "owner": "microsoft",
                 "repo": "nni",
                 "stars": 14360
-              }
+              },
+              "first_seen": "2026-08-28T15:41:02.816Z"
             },
             {
               "node_type": "item",
@@ -492,8 +522,9 @@
                 "last_commit": "2026-07-18T11:15:46Z",
                 "owner": "spotify",
                 "repo": "luigi",
-                "stars": 18766
-              }
+                "stars": 18769
+              },
+              "first_seen": "2026-08-28T15:41:02.816Z"
             },
             {
               "node_type": "item",
@@ -507,8 +538,9 @@
                 "last_commit": "2026-08-26T17:46:29Z",
                 "owner": "locustio",
                 "repo": "locust",
-                "stars": 28107
-              }
+                "stars": 28112
+              },
+              "first_seen": "2026-08-28T15:41:02.816Z"
             },
             {
               "node_type": "item",
@@ -522,8 +554,9 @@
                 "last_commit": "2026-08-24T08:26:10Z",
                 "owner": "explosion",
                 "repo": "spaCy",
-                "stars": 33854
-              }
+                "stars": 33858
+              },
+              "first_seen": "2026-08-28T15:41:02.816Z"
             }
           ],
           "description": "Python Package Index (PyPI) is a repository of software for the Python programming language. PyPI helps you find and install software developed and shared by the Python community.\nPyCharm is the best IDE I've ever used. With PyCharm, you can access the command line, connect to a database, create a virtual environment, and manage your version control system all in one place, saving time by avoiding constantly switching between windows.\nPython Tools for Visual Studio(PTVS) is a free, open source plugin that turns Visual Studio into a Python IDE. It supports editing, browsing, IntelliSense, mixed Python/C++ debugging, remote Linux/MacOS debugging, profiling, IPython, and web development with Django and other frameworks.\nDjango is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\nFlask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.\nWeb2py is an open-source web application framework written in Python allowing allows web developers to program dynamic web content. One web2py instance can run multiple web sites using different databases.\nTornado is a Python web framework and asynchronous networking library. Tornado uses a non-blocking network I/O, which can scale to tens of thousands of open connections.\nScrapy is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing.\nSentry is a service that helps you monitor and fix crashes in realtime. The server is in Python, but it contains a full API for sending events from any language, in any application.\nCherryPy is a minimalist Python object-oriented HTTP web framework.\nPyramid is a small and fast open source Python web framework. It makes real-world web application development and deployment more fun and more productive.\nTurboGears is a hybrid web framework able to act both as a Full Stack framework or as a Microframework.\nFalcon is a reliable, high-performance Python web framework for building large-scale app backends and microservices with support for MongoDB, Pluggable Applications and autogenerated Admin.\nDash is a popular Python framework for building ML & data science web apps for Python, R, Julia, and Jupyter.\nNumPy is the fundamental package needed for scientific computing with Python.\nPillow is a friendly PIL(Python Imaging Library) fork.\nIPython is a command shell for interactive computing in multiple programming languages, originally developed for the Python programming language, that offers enhanced introspection, rich media, additional shell syntax, tab completion, and rich history.\nGraphLab Create is a Python library, backed by a C++ engine, for quickly building large-scale, high-performance machine learning models.\nPandas is a fast, powerful, and easy to use open source data structrures, data analysis and manipulation tool, built on top of the Python programming language.\nPuLP is an Linear Programming modeler written in python. PuLP can generate LP files and call on use highly optimized solvers, GLPK, COIN CLP/CBC, CPLEX, and GUROBI, to solve these linear problems.\nMatplotlib is a 2D plotting library for creating static, animated, and interactive visualizations in Python. Matplotlib produces publication-quality figures in a variety of hardcopy formats and interactive environments across platforms.\nScikit-Learn is a simple and efficient tool for data mining and data analysis. It is built on NumPy,SciPy, and mathplotlib.",
@@ -545,7 +578,8 @@
                 "owner": "mikeroyal",
                 "repo": "CUDA-Guide",
                 "stars": 81
-              }
+              },
+              "first_seen": "2026-08-28T15:41:02.816Z"
             }
           ],
           "description": null,
@@ -557,7 +591,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T14:46:55.439Z",
+    "last_updated": "2026-08-28T15:41:02.816Z",
     "original_repository_info": {
       "archived": false,
       "id": 298657618,
