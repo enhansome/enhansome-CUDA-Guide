@@ -16,13 +16,13 @@
 
 # Table of Contents
 
-1. [CUDA Learning Resources](https://github.com/mikeroyal/CUDA-Guide#cuda-learning-resources) ⭐ 81 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
+1. [CUDA Learning Resources](https://github.com/mikeroyal/CUDA-Guide#cuda-learning-resources) ⭐ 80 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
 
-2. [CUDA Tools](https://github.com/mikeroyal/CUDA-Guide#cuda-tools) ⭐ 81 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
+2. [CUDA Tools](https://github.com/mikeroyal/CUDA-Guide#cuda-tools) ⭐ 80 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
 
-3. [C/C++ Development](https://github.com/mikeroyal/CUDA-Guide#cc-development) ⭐ 81 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
+3. [C/C++ Development](https://github.com/mikeroyal/CUDA-Guide#cc-development) ⭐ 80 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
 
-4. [Python Development](https://github.com/mikeroyal/CUDA-Guide#python-development) ⭐ 81 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
+4. [Python Development](https://github.com/mikeroyal/CUDA-Guide#python-development) ⭐ 80 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/117718735-55a23480-b191-11eb-874d-e690d09cd490.png">
@@ -33,7 +33,7 @@
 
 ## CUDA Learning Resources
 
-[Back to the Top](https://github.com/mikeroyal/CUDA-Guide#table-of-contents) ⭐ 81 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
+[Back to the Top](https://github.com/mikeroyal/CUDA-Guide#table-of-contents) ⭐ 80 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
 
 [CUDA](https://developer.nvidia.com/cuda-zone) is a parallel computing platform and programming model developed by NVIDIA for general computing on graphical processing units (GPUs). With CUDA, developers are able to dramatically speed up computing applications by harnessing the power of GPUs. In GPU-accelerated applications, the sequential part of the workload runs on the CPU, which is optimized for single-threaded. The compute intensive portion of the application runs on thousands of GPU cores in parallel. When using CUDA, developers can program in popular languages such as C, C++, Fortran, Python and MATLAB.
 
@@ -55,7 +55,7 @@
 
 ## CUDA Tools
 
-[Back to the Top](https://github.com/mikeroyal/CUDA-Guide#table-of-contents) ⭐ 81 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
+[Back to the Top](https://github.com/mikeroyal/CUDA-Guide#table-of-contents) ⭐ 80 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
 
 [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads) is a collection of tools & libraries that provide a development environment for creating high performance GPU-accelerated applications. The CUDA Toolkit allows you can develop, optimize, and deploy your applications on GPU-accelerated embedded systems, desktop workstations, enterprise data centers, cloud-based platforms and HPC supercomputers. The toolkit includes GPU-accelerated libraries, debugging and optimization tools, a C/C++ compiler, and a runtime library to build and deploy your application on major architectures including x86, Arm and POWER.
 
@@ -67,15 +67,15 @@
 
 [Minkowski Engine](https://nvidia.github.io/MinkowskiEngine) is an auto-differentiation library for sparse tensors. It supports all standard neural network layers such as convolution, pooling, unpooling, and broadcasting operations for sparse tensors.
 
-[CUTLASS](https://github.com/NVIDIA/cutlass) ⭐ 10,358 | 🐛 701 | 🌐 C++ | 📅 2026-08-28 is a collection of CUDA C++ template abstractions for implementing high-performance matrix-multiplication (GEMM) at all levels and scales within CUDA. It incorporates strategies for hierarchical decomposition and data movement similar to those used to implement cuBLAS.
+[CUTLASS](https://github.com/NVIDIA/cutlass) ⭐ 10,361 | 🐛 704 | 🌐 C++ | 📅 2026-08-28 is a collection of CUDA C++ template abstractions for implementing high-performance matrix-multiplication (GEMM) at all levels and scales within CUDA. It incorporates strategies for hierarchical decomposition and data movement similar to those used to implement cuBLAS.
 
 [CUB](https://github.com/NVIDIA/cub) ⚠️ Archived is a cooperative primitives for CUDA C++ kernel authors.
 
 [Tensorman](https://github.com/pop-os/tensorman) ⭐ 206 | 🐛 11 | 🌐 Rust | 📅 2025-10-27 is a utility for easy management of Tensorflow containers by developed by [System76](https://system76.com).Tensorman allows Tensorflow to operate in an isolated environment that is contained from the rest of the system. This virtual environment can operate independent of the base system, allowing you to use any version of Tensorflow on any version of a Linux distribution that supports the Docker runtime.
 
-[Numba](https://github.com/numba/numba) ⭐ 11,142 | 🐛 1,798 | 🌐 Python | 📅 2026-08-31 is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.
+[Numba](https://github.com/numba/numba) ⭐ 11,142 | 🐛 1,797 | 🌐 Python | 📅 2026-08-31 is an open source, NumPy-aware optimizing compiler for Python sponsored by Anaconda, Inc. It uses the LLVM compiler project to generate machine code from Python syntax. Numba can compile a large subset of numerically-focused Python, including many NumPy functions. Additionally, Numba has support for automatic parallelization of loops, generation of GPU-accelerated code, and creation of ufuncs and C callbacks.
 
-[Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks. It also supports CUDA/cuDNN using [CuPy](https://github.com/cupy/cupy) ⭐ 12,298 | 🐛 711 | 🌐 Python | 📅 2026-09-01 for high performance training and inference.
+[Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks. It also supports CUDA/cuDNN using [CuPy](https://github.com/cupy/cupy) ⭐ 12,300 | 🐛 703 | 🌐 Python | 📅 2026-09-02 for high performance training and inference.
 
 [CuPy](https://cupy.dev/) is an implementation of NumPy-compatible multi-dimensional array on CUDA. CuPy consists of the core multi-dimensional array class, cupy.ndarray, and many functions on it. It supports a subset of numpy.ndarray interface.
 
@@ -83,7 +83,7 @@
 
 [cuDF](https://rapids.ai/) is a GPU DataFrame library for loading, joining, aggregating, filtering, and otherwise manipulating data. cuDF provides a pandas-like API that will be familiar to data engineers & data scientists, so they can use it to easily accelerate their workflows without going into the details of CUDA programming.
 
-[cuML](https://github.com/rapidsai/cuml) ⭐ 5,270 | 🐛 848 | 🌐 Python | 📅 2026-09-01 is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.
+[cuML](https://github.com/rapidsai/cuml) ⭐ 5,270 | 🐛 821 | 🌐 Python | 📅 2026-09-02 is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other RAPIDS projects. cuML enables data scientists, researchers, and software engineers to run traditional tabular ML tasks on GPUs without going into the details of CUDA programming. In most cases, cuML's Python API matches the API from scikit-learn.
 
 [ArrayFire](https://arrayfire.com/) is a general-purpose library that simplifies the process of developing software that targets parallel and massively-parallel architectures including CPUs, GPUs, and other hardware acceleration devices.
 
@@ -99,7 +99,7 @@
 
 # Awesome C/C++ Development with stars
 
-[Back to the Top](https://github.com/mikeroyal/CUDA-Guide#table-of-contents) ⭐ 81 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
+[Back to the Top](https://github.com/mikeroyal/CUDA-Guide#table-of-contents) ⭐ 80 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/115297894-961e0d80-a111-11eb-81c3-e2bd2ac9a7cd.png">
@@ -135,7 +135,7 @@
 
 [Chromium C++ Style Guide](https://chromium.googlesource.com/chromium/src/+/master/styleguide/c++/c++.md)
 
-[C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md) ⭐ 45,287 | 🐛 246 | 🌐 CSS | 📅 2026-08-06
+[C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md) ⭐ 45,290 | 🐛 246 | 🌐 CSS | 📅 2026-08-06
 
 [C++ Style Guide for ROS](http://wiki.ros.org/CppStyleGuide)
 
@@ -181,17 +181,17 @@
 
 [AWS SDK for C++](https://aws.amazon.com/sdk-for-cpp/)
 
-[Azure SDK for C++](https://github.com/Azure/azure-sdk-for-cpp) ⭐ 205 | 🐛 171 | 🌐 C++ | 📅 2026-09-01
+[Azure SDK for C++](https://github.com/Azure/azure-sdk-for-cpp) ⭐ 205 | 🐛 171 | 🌐 C++ | 📅 2026-09-02
 
 [Azure SDK for C](https://github.com/Azure/azure-sdk-for-c) ⚠️ Archived
 
-[C++ Client Libraries for Google Cloud Services](https://github.com/googleapis/google-cloud-cpp) ⭐ 660 | 🐛 203 | 🌐 C++ | 📅 2026-09-01
+[C++ Client Libraries for Google Cloud Services](https://github.com/googleapis/google-cloud-cpp) ⭐ 660 | 🐛 200 | 🌐 C++ | 📅 2026-09-02
 
 [Visual Studio](https://visualstudio.microsoft.com/) is an integrated development environment (IDE) from Microsoft; which is a feature-rich application that can be used for many aspects of software development. Visual Studio makes it easy to edit, debug, build, and publish your app. By using Microsoft software development platforms such as Windows API, Windows Forms, Windows Presentation Foundation, and Windows Store.
 
 [Visual Studio Code](https://code.visualstudio.com/) is a code editor redefined and optimized for building and debugging modern web and cloud applications.
 
-[Vcpkg](https://github.com/microsoft/vcpkg) ⭐ 27,418 | 🐛 1,176 | 🌐 CMake | 📅 2026-08-31 is a C++ Library Manager for Windows, Linux, and MacOS.
+[Vcpkg](https://github.com/microsoft/vcpkg) ⭐ 27,426 | 🐛 1,184 | 🌐 CMake | 📅 2026-08-31 is a C++ Library Manager for Windows, Linux, and MacOS.
 
 [ReSharper C++](https://www.jetbrains.com/resharper-cpp/features/) is a Visual Studio Extension for C++ developers developed by JetBrains.
 
@@ -201,7 +201,7 @@
 
 [Code::Blocks](https://www.codeblocks.org/) is a free C/C++ and Fortran IDE built to meet the most demanding needs of its users. It is designed to be very extensible and fully configurable. Built around a plugin framework, Code::Blocks can be extended with plugins.
 
-[CppSharp](https://github.com/mono/CppSharp) ⭐ 3,406 | 🐛 346 | 🌐 C# | 📅 2026-05-18 is a tool and set of libraries which facilitates the usage of native C/C++ code with the .NET ecosystem. It consumes C/C++ header and library files and generates the necessary glue code to surface the native API as a managed API. Such an API can be used to consume an existing native library in your managed code or add managed scripting support to a native codebase.
+[CppSharp](https://github.com/mono/CppSharp) ⭐ 3,407 | 🐛 346 | 🌐 C# | 📅 2026-05-18 is a tool and set of libraries which facilitates the usage of native C/C++ code with the .NET ecosystem. It consumes C/C++ header and library files and generates the necessary glue code to surface the native API as a managed API. Such an API can be used to consume an existing native library in your managed code or add managed scripting support to a native codebase.
 
 [Conan](https://conan.io/) is an Open Source Package Manager for C++ development and dependency management into the 21st century and on par with the other development ecosystems.
 
@@ -239,17 +239,17 @@
 
 [Oat++](https://oatpp.io/) is a light and powerful C++ web framework for highly scalable and resource-efficient web application. It's zero-dependency and easy-portable.
 
-[JavaCPP](https://github.com/bytedeco/javacpp) ⭐ 4,705 | 🐛 113 | 🌐 Java | 📅 2026-08-10 is a program that provides efficient access to native C++ inside Java, not unlike the way some C/C++ compilers interact with assembly language.
+[JavaCPP](https://github.com/bytedeco/javacpp) ⭐ 4,706 | 🐛 113 | 🌐 Java | 📅 2026-08-10 is a program that provides efficient access to native C++ inside Java, not unlike the way some C/C++ compilers interact with assembly language.
 
 [Cython](https://cython.org/) is a language that makes writing C extensions for Python as easy as Python itself. Cython is based on Pyrex, but supports more cutting edge functionality and optimizations such as calling C functions and declaring C types on variables and class attributes.
 
-[Spdlog](https://github.com/gabime/spdlog) ⭐ 29,559 | 🐛 49 | 🌐 C++ | 📅 2026-08-08 is a very fast, header-only/compiled, C++ logging library.
+[Spdlog](https://github.com/gabime/spdlog) ⭐ 29,564 | 🐛 49 | 🌐 C++ | 📅 2026-08-08 is a very fast, header-only/compiled, C++ logging library.
 
 [Infer](https://fbinfer.com/) is a static analysis tool for Java, C++, Objective-C, and C. Infer is written in [OCaml](https://ocaml.org/).
 
 # Python Development
 
-[Back to the Top](https://github.com/mikeroyal/CUDA-Guide#table-of-contents) ⭐ 81 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
+[Back to the Top](https://github.com/mikeroyal/CUDA-Guide#table-of-contents) ⭐ 80 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93133273-ce490380-f68b-11ea-81d0-7f6a3debe6c0.png">
@@ -307,9 +307,9 @@
 
 [Python Tools for Visual Studio(PTVS)](https://microsoft.github.io/PTVS/) is a free, open source plugin that turns Visual Studio into a Python IDE. It supports editing, browsing, IntelliSense, mixed Python/C++ debugging, remote Linux/MacOS debugging, profiling, IPython, and web development with Django and other frameworks.
 
-[Pylance](https://github.com/microsoft/pylance-release) ⭐ 2,118 | 🐛 46 | 🌐 Python | 📅 2026-08-28 is an extension that works alongside Python in Visual Studio Code to provide performant language support. Under the hood, Pylance is powered by Pyright, Microsoft's static type checking tool.
+[Pylance](https://github.com/microsoft/pylance-release) ⭐ 2,118 | 🐛 33 | 🌐 Python | 📅 2026-09-02 is an extension that works alongside Python in Visual Studio Code to provide performant language support. Under the hood, Pylance is powered by Pyright, Microsoft's static type checking tool.
 
-[Pyright](https://github.com/Microsoft/pyright) ⭐ 15,612 | 🐛 325 | 🌐 Python | 📅 2026-08-28 is a fast type checker meant for large Python source bases. It can run in a “watch” mode and performs fast incremental updates when files are modified.
+[Pyright](https://github.com/Microsoft/pyright) ⭐ 15,614 | 🐛 328 | 🌐 Python | 📅 2026-09-02 is a fast type checker meant for large Python source bases. It can run in a “watch” mode and performs fast incremental updates when files are modified.
 
 [Django](https://www.djangoproject.com/) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
 
@@ -321,21 +321,21 @@
 
 [Tornado](https://www.tornadoweb.org/) is a Python web framework and asynchronous networking library. Tornado uses a non-blocking network I/O, which can scale to tens of thousands of open connections.
 
-[HTTPie](https://github.com/httpie/httpie) ⭐ 38,477 | 🐛 336 | 🌐 Python | 📅 2024-12-17 is a command line HTTP client that makes CLI interaction with web services as easy as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.
+[HTTPie](https://github.com/httpie/httpie) ⭐ 38,480 | 🐛 336 | 🌐 Python | 📅 2024-12-17 is a command line HTTP client that makes CLI interaction with web services as easy as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers.
 
 [Scrapy](https://scrapy.org/) is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing.
 
 [Sentry](https://sentry.io/) is a service that helps you monitor and fix crashes in realtime. The server is in Python, but it contains a full API for sending events from any language, in any application.
 
-[Pipenv](https://github.com/pypa/pipenv) ⭐ 25,033 | 🐛 13 | 🌐 Python | 📅 2026-08-24 is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world.
+[Pipenv](https://github.com/pypa/pipenv) ⭐ 25,034 | 🐛 13 | 🌐 Python | 📅 2026-08-24 is a tool that aims to bring the best of all packaging worlds (bundler, composer, npm, cargo, yarn, etc.) to the Python world.
 
-[Python Fire](https://github.com/google/python-fire) ⭐ 28,208 | 🐛 195 | 🌐 Python | 📅 2026-07-01 is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+[Python Fire](https://github.com/google/python-fire) ⭐ 28,209 | 🐛 195 | 🌐 Python | 📅 2026-07-01 is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
 
-[Bottle](https://github.com/bottlepy/bottle) ⭐ 8,778 | 🐛 290 | 🌐 Python | 📅 2026-07-19 is a fast, simple and lightweight [WSGI](https://www.wsgi.org/) micro web-framework for Python. It is distributed as a single file module and has no dependencies other than the [Python Standard Library](https://docs.python.org/library/).
+[Bottle](https://github.com/bottlepy/bottle) ⭐ 8,779 | 🐛 290 | 🌐 Python | 📅 2026-07-19 is a fast, simple and lightweight [WSGI](https://www.wsgi.org/) micro web-framework for Python. It is distributed as a single file module and has no dependencies other than the [Python Standard Library](https://docs.python.org/library/).
 
 [CherryPy](https://cherrypy.org) is a minimalist Python object-oriented HTTP web framework.
 
-[Sanic](https://github.com/huge-success/sanic) ⭐ 18,648 | 🐛 147 | 🌐 Python | 📅 2026-07-29 is a Python 3.6+ web server and web framework that's written to go fast.
+[Sanic](https://github.com/huge-success/sanic) ⭐ 18,647 | 🐛 147 | 🌐 Python | 📅 2026-07-29 is a Python 3.6+ web server and web framework that's written to go fast.
 
 [Pyramid](https://trypyramid.com) is a small and fast open source Python web framework. It makes real-world web application development and deployment more fun and more productive.
 
@@ -349,9 +349,9 @@
 
 [Luigi](https://github.com/spotify/luigi) ⭐ 18,768 | 🐛 170 | 🌐 Python | 📅 2026-07-18 is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built-in.
 
-[Locust](https://github.com/locustio/locust) ⭐ 28,117 | 🐛 4 | 🌐 Python | 📅 2026-08-26 is an easy to use, scriptable and scalable performance testing tool.
+[Locust](https://github.com/locustio/locust) ⭐ 28,120 | 🐛 4 | 🌐 Python | 📅 2026-08-26 is an easy to use, scriptable and scalable performance testing tool.
 
-[spaCy](https://github.com/explosion/spaCy) ⭐ 33,865 | 🐛 238 | 🌐 Python | 📅 2026-08-24 is a library for advanced Natural Language Processing in Python and Cython.
+[spaCy](https://github.com/explosion/spaCy) ⭐ 33,867 | 🐛 238 | 🌐 Python | 📅 2026-08-24 is a library for advanced Natural Language Processing in Python and Cython.
 
 [NumPy](https://www.numpy.org/) is the fundamental package needed for scientific computing with Python.
 
@@ -371,14 +371,14 @@
 
 ## Contribute
 
-* [x] If would you like to contribute to this guide simply make a [Pull Request](https://github.com/mikeroyal/CUDA-Guide/pulls) ⭐ 81 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04.
+* [x] If would you like to contribute to this guide simply make a [Pull Request](https://github.com/mikeroyal/CUDA-Guide/pulls) ⭐ 80 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04.
 
 ## License
 
-[Back to the Top](https://github.com/mikeroyal/CUDA-Guide#table-of-contents) ⭐ 81 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
+[Back to the Top](https://github.com/mikeroyal/CUDA-Guide#table-of-contents) ⭐ 80 | 🐛 0 | 🌐 Cuda | 📅 2024-01-04
 
 Distributed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) Public License](https://creativecommons.org/licenses/by/4.0/).
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-01._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-02._
