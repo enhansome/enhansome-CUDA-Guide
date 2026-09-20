@@ -189,7 +189,7 @@
             "open_issues": 0,
             "owner": "NVIDIA",
             "repo": "nvidia-docker",
-            "stars": 17599,
+            "stars": 17598,
             "topics": [
               "cuda",
               "docker",
@@ -212,10 +212,10 @@
             "language": "C++",
             "license": "NOASSERTION",
             "last_commit": "2026-09-17T01:21:49Z",
-            "open_issues": 745,
+            "open_issues": 746,
             "owner": "NVIDIA",
             "repo": "cutlass",
-            "stars": 10455,
+            "stars": 10458,
             "topics": [
               "cpp",
               "cuda",
@@ -303,7 +303,7 @@
             "open_issues": 1792,
             "owner": "numba",
             "repo": "numba",
-            "stars": 11156,
+            "stars": 11158,
             "topics": [
               "compiler",
               "cuda",
@@ -332,7 +332,7 @@
             "open_issues": 794,
             "owner": "NVIDIA",
             "repo": "cuml",
-            "stars": 5283,
+            "stars": 5284,
             "topics": [
               "cuda",
               "gpu",
@@ -479,7 +479,7 @@
             "id": 111860063,
             "language": "C++",
             "license": "Apache-2.0",
-            "last_commit": "2026-09-19T06:32:25Z",
+            "last_commit": "2026-09-20T00:50:32Z",
             "open_issues": 197,
             "owner": "googleapis",
             "repo": "google-cloud-cpp",
@@ -516,10 +516,10 @@
             "language": "CMake",
             "license": "MIT",
             "last_commit": "2026-09-19T05:46:12Z",
-            "open_issues": 1108,
+            "open_issues": 1110,
             "owner": "microsoft",
             "repo": "vcpkg",
-            "stars": 27472,
+            "stars": 27470,
             "topics": [
               "c",
               "cmake",
@@ -657,10 +657,10 @@
             "language": "C++",
             "license": "NOASSERTION",
             "last_commit": "2026-09-05T06:44:37Z",
-            "open_issues": 54,
+            "open_issues": 55,
             "owner": "gabime",
             "repo": "spdlog",
-            "stars": 29613,
+            "stars": 29614,
             "topics": [
               "cpp",
               "cpp11",
@@ -725,7 +725,7 @@
                 "open_issues": 26,
                 "owner": "microsoft",
                 "repo": "pylance-release",
-                "stars": 2120,
+                "stars": 2121,
                 "topics": [
                   "code-analysis",
                   "language-server",
@@ -748,10 +748,10 @@
                 "language": "Python",
                 "license": "NOASSERTION",
                 "last_commit": "2026-09-18T23:43:29Z",
-                "open_issues": 338,
+                "open_issues": 343,
                 "owner": "microsoft",
                 "repo": "pyright",
-                "stars": 15648,
+                "stars": 15651,
                 "topics": []
               },
               "first_seen": "2026-08-28T15:41:02.816Z"
@@ -772,7 +772,7 @@
                 "open_issues": 495,
                 "owner": "aws",
                 "repo": "chalice",
-                "stars": 11059,
+                "stars": 11057,
                 "topics": [
                   "aws",
                   "aws-apigateway",
@@ -804,7 +804,7 @@
                 "open_issues": 338,
                 "owner": "httpie",
                 "repo": "cli",
-                "stars": 38534,
+                "stars": 38559,
                 "topics": [
                   "api",
                   "api-client",
@@ -846,7 +846,7 @@
                 "open_issues": 16,
                 "owner": "pypa",
                 "repo": "pipenv",
-                "stars": 25029,
+                "stars": 25027,
                 "topics": [
                   "packaging",
                   "pip",
@@ -921,10 +921,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-07-29T03:09:51Z",
-                "open_issues": 150,
+                "open_issues": 151,
                 "owner": "sanic-org",
                 "repo": "sanic",
-                "stars": 18639,
+                "stars": 18638,
                 "topics": [
                   "api-server",
                   "asgi",
@@ -955,7 +955,7 @@
                 "open_issues": 415,
                 "owner": "microsoft",
                 "repo": "nni",
-                "stars": 14359,
+                "stars": 14360,
                 "topics": [
                   "automated-machine-learning",
                   "automl",
@@ -1024,7 +1024,7 @@
                 "open_issues": 2,
                 "owner": "locustio",
                 "repo": "locust",
-                "stars": 28168,
+                "stars": 28169,
                 "topics": [
                   "benchmarking",
                   "http",
@@ -1057,7 +1057,7 @@
                 "open_issues": 245,
                 "owner": "explosion",
                 "repo": "spaCy",
-                "stars": 33913,
+                "stars": 33910,
                 "topics": [
                   "ai",
                   "artificial-intelligence",
@@ -1138,7 +1138,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-19T08:18:00.107Z",
+    "last_updated": "2026-09-20T08:49:31.107Z",
     "original_repository_info": {
       "archived": false,
       "description": "CUDA Guide",
