@@ -1,176 +1,6 @@
 {
   "items": [
     {
-      "description": "Note: You can easily convert this markdown file to a PDF in VSCode using this handy extension Markdown PDF.\nCUDA Toolkit. Source: NVIDIA Developer CUDA",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "CUDA Learning Resources",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "CUDA Guide",
-            "homepage": null,
-            "id": 298657618,
-            "language": "Cuda",
-            "license": null,
-            "last_commit": "2024-01-04T22:16:44Z",
-            "open_issues": 0,
-            "owner": "mikeroyal",
-            "repo": "CUDA-Guide",
-            "stars": 79,
-            "topics": [
-              "awesome",
-              "awesome-list",
-              "awesome-readme",
-              "cuda",
-              "cuda-development",
-              "cuda-driver",
-              "cuda-kernels",
-              "cuda-library",
-              "cuda-opengl",
-              "cuda-programming",
-              "cuda-support",
-              "cuda-toolkit",
-              "deep-learning",
-              "gpgpu",
-              "gpgpu-computing",
-              "gpu",
-              "graphics-programming",
-              "machine-learning",
-              "resources"
-            ]
-          },
-          "first_seen": "2026-08-28T15:41:02.816Z"
-        },
-        {
-          "node_type": "item",
-          "title": "CUDA Tools",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "CUDA Guide",
-            "homepage": null,
-            "id": 298657618,
-            "language": "Cuda",
-            "license": null,
-            "last_commit": "2024-01-04T22:16:44Z",
-            "open_issues": 0,
-            "owner": "mikeroyal",
-            "repo": "CUDA-Guide",
-            "stars": 79,
-            "topics": [
-              "awesome",
-              "awesome-list",
-              "awesome-readme",
-              "cuda",
-              "cuda-development",
-              "cuda-driver",
-              "cuda-kernels",
-              "cuda-library",
-              "cuda-opengl",
-              "cuda-programming",
-              "cuda-support",
-              "cuda-toolkit",
-              "deep-learning",
-              "gpgpu",
-              "gpgpu-computing",
-              "gpu",
-              "graphics-programming",
-              "machine-learning",
-              "resources"
-            ]
-          },
-          "first_seen": "2026-08-28T15:41:02.816Z"
-        },
-        {
-          "node_type": "item",
-          "title": "C/C++ Development",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "CUDA Guide",
-            "homepage": null,
-            "id": 298657618,
-            "language": "Cuda",
-            "license": null,
-            "last_commit": "2024-01-04T22:16:44Z",
-            "open_issues": 0,
-            "owner": "mikeroyal",
-            "repo": "CUDA-Guide",
-            "stars": 79,
-            "topics": [
-              "awesome",
-              "awesome-list",
-              "awesome-readme",
-              "cuda",
-              "cuda-development",
-              "cuda-driver",
-              "cuda-kernels",
-              "cuda-library",
-              "cuda-opengl",
-              "cuda-programming",
-              "cuda-support",
-              "cuda-toolkit",
-              "deep-learning",
-              "gpgpu",
-              "gpgpu-computing",
-              "gpu",
-              "graphics-programming",
-              "machine-learning",
-              "resources"
-            ]
-          },
-          "first_seen": "2026-08-28T15:41:02.816Z"
-        },
-        {
-          "node_type": "item",
-          "title": "Python Development",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "CUDA Guide",
-            "homepage": null,
-            "id": 298657618,
-            "language": "Cuda",
-            "license": null,
-            "last_commit": "2024-01-04T22:16:44Z",
-            "open_issues": 0,
-            "owner": "mikeroyal",
-            "repo": "CUDA-Guide",
-            "stars": 79,
-            "topics": [
-              "awesome",
-              "awesome-list",
-              "awesome-readme",
-              "cuda",
-              "cuda-development",
-              "cuda-driver",
-              "cuda-kernels",
-              "cuda-library",
-              "cuda-opengl",
-              "cuda-programming",
-              "cuda-support",
-              "cuda-toolkit",
-              "deep-learning",
-              "gpgpu",
-              "gpgpu-computing",
-              "gpu",
-              "graphics-programming",
-              "machine-learning",
-              "resources"
-            ]
-          },
-          "first_seen": "2026-08-28T15:41:02.816Z"
-        }
-      ],
-      "title": "A guide covering CUDA including the applications and tools that will make you a better and more efficient CUDA developer."
-    },
-    {
       "description": "CUDA Toolkit is a collection of tools & libraries that provide a development environment for creating high performance GPU-accelerated applications. The CUDA Toolkit allows you can develop, optimize, and deploy your applications on GPU-accelerated embedded systems, desktop workstations, enterprise data centers, cloud-based platforms and HPC supercomputers. The toolkit includes GPU-accelerated libraries, debugging and optimization tools, a C/C++ compiler, and a runtime library to build and deploy your application on major architectures including x86, Arm and POWER.\nNVIDIA cuDNN is a GPU-accelerated library of primitives for deep neural networks. cuDNN provides highly tuned implementations for standard routines such as forward and backward convolution, pooling, normalization, and activation layers. cuDNN accelerates widely used deep learning frameworks, including Caffe2, Chainer, Keras, MATLAB, MxNet, PyTorch, and TensorFlow.\nCUDA-X HPC is a collection of libraries, tools, compilers and APIs that help developers solve the world's most challenging problems. CUDA-X HPC includes highly tuned kernels essential for high-performance computing (HPC).\nMinkowski Engine is an auto-differentiation library for sparse tensors. It supports all standard neural network layers such as convolution, pooling, unpooling, and broadcasting operations for sparse tensors.\nChainer is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the define-by-run approach (dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks. It also supports CUDA/cuDNN using CuPy for high performance training and inference.\nCuPy is an implementation of NumPy-compatible multi-dimensional array on CUDA. CuPy consists of the core multi-dimensional array class, cupy.ndarray, and many functions on it. It supports a subset of numpy.ndarray interface.\nCatBoost is a fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regression and other machine learning tasks for Python, R, Java, C++. Supports computation on CPU and GPU.\ncuDF is a GPU DataFrame library for loading, joining, aggregating, filtering, and otherwise manipulating data. cuDF provides a pandas-like API that will be familiar to data engineers & data scientists, so they can use it to easily accelerate their workflows without going into the details of CUDA programming.\nArrayFire is a general-purpose library that simplifies the process of developing software that targets parallel and massively-parallel architectures including CPUs, GPUs, and other hardware acceleration devices.\nAresDB is a GPU-powered real-time analytics storage and query engine. It features low query latency, high data freshness and highly efficient in-memory and on disk storage management.\nArraymancer is a tensor (N-dimensional array) project in Nim. The main focus is providing a fast and ergonomic CPU, Cuda and OpenCL ndarray library on which to build a scientific computing ecosystem.\nGraphVite is a general graph embedding engine, dedicated to high-speed and large-scale embedding learning in various applications.",
       "items": [
         {
@@ -189,7 +19,7 @@
             "open_issues": 0,
             "owner": "NVIDIA",
             "repo": "nvidia-docker",
-            "stars": 17601,
+            "stars": 17600,
             "topics": [
               "cuda",
               "docker",
@@ -212,10 +42,10 @@
             "language": "C++",
             "license": "NOASSERTION",
             "last_commit": "2026-09-23T08:49:11Z",
-            "open_issues": 777,
+            "open_issues": 776,
             "owner": "NVIDIA",
             "repo": "cutlass",
-            "stars": 10518,
+            "stars": 10519,
             "topics": [
               "cpp",
               "cuda",
@@ -299,8 +129,8 @@
             "id": 3659275,
             "language": "Python",
             "license": "BSD-2-Clause",
-            "last_commit": "2026-10-01T21:12:25Z",
-            "open_issues": 1817,
+            "last_commit": "2026-10-02T18:16:02Z",
+            "open_issues": 1820,
             "owner": "numba",
             "repo": "numba",
             "stars": 11169,
@@ -328,11 +158,11 @@
             "id": 152616802,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-02T09:07:38Z",
-            "open_issues": 807,
+            "last_commit": "2026-10-03T04:05:38Z",
+            "open_issues": 808,
             "owner": "NVIDIA",
             "repo": "cuml",
-            "stars": 5295,
+            "stars": 5296,
             "topics": [
               "cuda",
               "gpu",
@@ -416,7 +246,7 @@
         {
           "node_type": "item",
           "title": "Azure SDK for C++",
-          "description": null,
+          "description": "Azure/azure-sdk-for-cpp",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -425,11 +255,11 @@
             "id": 233147271,
             "language": "C++",
             "license": "MIT",
-            "last_commit": "2026-10-01T23:19:08Z",
+            "last_commit": "2026-10-02T23:19:49Z",
             "open_issues": 156,
             "owner": "Azure",
             "repo": "azure-sdk-for-cpp",
-            "stars": 207,
+            "stars": 206,
             "topics": [
               "azure",
               "azure-sdk",
@@ -442,7 +272,7 @@
         {
           "node_type": "item",
           "title": "Azure SDK for C",
-          "description": null,
+          "description": "Azure/azure-sdk-for-c",
           "children": [],
           "repo_info": {
             "archived": true,
@@ -455,7 +285,7 @@
             "open_issues": 2,
             "owner": "Azure",
             "repo": "azure-sdk-for-c",
-            "stars": 242,
+            "stars": 241,
             "topics": [
               "azure",
               "azure-sdk",
@@ -470,7 +300,7 @@
         {
           "node_type": "item",
           "title": "C++ Client Libraries for Google Cloud Services",
-          "description": null,
+          "description": "googleapis/google-cloud-cpp",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -479,8 +309,8 @@
             "id": 111860063,
             "language": "C++",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-02T09:38:23Z",
-            "open_issues": 202,
+            "last_commit": "2026-10-03T03:26:23Z",
+            "open_issues": 203,
             "owner": "googleapis",
             "repo": "google-cloud-cpp",
             "stars": 658,
@@ -515,11 +345,11 @@
             "id": 68312233,
             "language": "CMake",
             "license": "MIT",
-            "last_commit": "2026-10-02T07:25:14Z",
-            "open_issues": 1101,
+            "last_commit": "2026-10-03T01:56:12Z",
+            "open_issues": 1092,
             "owner": "microsoft",
             "repo": "vcpkg",
-            "stars": 27512,
+            "stars": 27513,
             "topics": [
               "c",
               "cmake",
@@ -551,7 +381,7 @@
             "open_issues": 346,
             "owner": "mono",
             "repo": "CppSharp",
-            "stars": 3401,
+            "stars": 3399,
             "topics": [
               "bindings",
               "bridge",
@@ -656,11 +486,11 @@
             "id": 26038648,
             "language": "C++",
             "license": "NOASSERTION",
-            "last_commit": "2026-09-30T23:01:32Z",
+            "last_commit": "2026-10-02T18:58:12Z",
             "open_issues": 54,
             "owner": "gabime",
             "repo": "spdlog",
-            "stars": 29647,
+            "stars": 29650,
             "topics": [
               "cpp",
               "cpp11",
@@ -682,7 +512,7 @@
             {
               "node_type": "item",
               "title": "The Python Open Source Computer Science Degree by Forrest Knight",
-              "description": null,
+              "description": "ForrestKnight/open-source-cs-python",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -725,7 +555,7 @@
                 "open_issues": 24,
                 "owner": "microsoft",
                 "repo": "pylance-release",
-                "stars": 2124,
+                "stars": 2123,
                 "topics": [
                   "code-analysis",
                   "language-server",
@@ -747,11 +577,11 @@
                 "id": 175129788,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-02T05:39:26Z",
-                "open_issues": 327,
+                "last_commit": "2026-10-02T23:31:30Z",
+                "open_issues": 331,
                 "owner": "microsoft",
                 "repo": "pyright",
-                "stars": 15670,
+                "stars": 15671,
                 "topics": []
               },
               "first_seen": "2026-08-28T15:41:02.816Z"
@@ -772,7 +602,7 @@
                 "open_issues": 501,
                 "owner": "aws",
                 "repo": "chalice",
-                "stars": 11052,
+                "stars": 11053,
                 "topics": [
                   "aws",
                   "aws-apigateway",
@@ -804,7 +634,7 @@
                 "open_issues": 346,
                 "owner": "httpie",
                 "repo": "cli",
-                "stars": 38604,
+                "stars": 38607,
                 "topics": [
                   "api",
                   "api-client",
@@ -846,7 +676,7 @@
                 "open_issues": 12,
                 "owner": "pypa",
                 "repo": "pipenv",
-                "stars": 25027,
+                "stars": 25023,
                 "topics": [
                   "packaging",
                   "pip",
@@ -870,10 +700,10 @@
                 "language": "Python",
                 "license": "NOASSERTION",
                 "last_commit": "2026-07-01T08:19:02Z",
-                "open_issues": 200,
+                "open_issues": 202,
                 "owner": "google",
                 "repo": "python-fire",
-                "stars": 28225,
+                "stars": 28222,
                 "topics": [
                   "cli",
                   "python"
@@ -924,7 +754,7 @@
                 "open_issues": 154,
                 "owner": "sanic-org",
                 "repo": "sanic",
-                "stars": 18638,
+                "stars": 18636,
                 "topics": [
                   "api-server",
                   "asgi",
@@ -997,7 +827,7 @@
                 "open_issues": 178,
                 "owner": "spotify",
                 "repo": "luigi",
-                "stars": 18779,
+                "stars": 18778,
                 "topics": [
                   "hadoop",
                   "luigi",
@@ -1021,7 +851,7 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-09-26T09:11:45Z",
-                "open_issues": 6,
+                "open_issues": 8,
                 "owner": "locustio",
                 "repo": "locust",
                 "stars": 28195,
@@ -1057,7 +887,7 @@
                 "open_issues": 248,
                 "owner": "explosion",
                 "repo": "spaCy",
-                "stars": 33934,
+                "stars": 33933,
                 "topics": [
                   "ai",
                   "artificial-intelligence",
@@ -1084,61 +914,13 @@
           "description": "Python Package Index (PyPI) is a repository of software for the Python programming language. PyPI helps you find and install software developed and shared by the Python community.\nPyCharm is the best IDE I've ever used. With PyCharm, you can access the command line, connect to a database, create a virtual environment, and manage your version control system all in one place, saving time by avoiding constantly switching between windows.\nPython Tools for Visual Studio(PTVS) is a free, open source plugin that turns Visual Studio into a Python IDE. It supports editing, browsing, IntelliSense, mixed Python/C++ debugging, remote Linux/MacOS debugging, profiling, IPython, and web development with Django and other frameworks.\nDjango is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.\nFlask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.\nWeb2py is an open-source web application framework written in Python allowing allows web developers to program dynamic web content. One web2py instance can run multiple web sites using different databases.\nTornado is a Python web framework and asynchronous networking library. Tornado uses a non-blocking network I/O, which can scale to tens of thousands of open connections.\nScrapy is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing.\nSentry is a service that helps you monitor and fix crashes in realtime. The server is in Python, but it contains a full API for sending events from any language, in any application.\nCherryPy is a minimalist Python object-oriented HTTP web framework.\nPyramid is a small and fast open source Python web framework. It makes real-world web application development and deployment more fun and more productive.\nTurboGears is a hybrid web framework able to act both as a Full Stack framework or as a Microframework.\nFalcon is a reliable, high-performance Python web framework for building large-scale app backends and microservices with support for MongoDB, Pluggable Applications and autogenerated Admin.\nDash is a popular Python framework for building ML & data science web apps for Python, R, Julia, and Jupyter.\nNumPy is the fundamental package needed for scientific computing with Python.\nPillow is a friendly PIL(Python Imaging Library) fork.\nIPython is a command shell for interactive computing in multiple programming languages, originally developed for the Python programming language, that offers enhanced introspection, rich media, additional shell syntax, tab completion, and rich history.\nGraphLab Create is a Python library, backed by a C++ engine, for quickly building large-scale, high-performance machine learning models.\nPandas is a fast, powerful, and easy to use open source data structrures, data analysis and manipulation tool, built on top of the Python programming language.\nPuLP is an Linear Programming modeler written in python. PuLP can generate LP files and call on use highly optimized solvers, GLPK, COIN CLP/CBC, CPLEX, and GUROBI, to solve these linear problems.\nMatplotlib is a 2D plotting library for creating static, animated, and interactive visualizations in Python. Matplotlib produces publication-quality figures in a variety of hardcopy formats and interactive environments across platforms.\nScikit-Learn is a simple and efficient tool for data mining and data analysis. It is built on NumPy,SciPy, and mathplotlib.",
           "node_type": "group",
           "title": "Python Frameworks and Tools"
-        },
-        {
-          "children": [
-            {
-              "node_type": "item",
-              "title": "If would you like to contribute to this guide simply make a Pull Request",
-              "description": ".",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "CUDA Guide",
-                "homepage": null,
-                "id": 298657618,
-                "language": "Cuda",
-                "license": null,
-                "last_commit": "2024-01-04T22:16:44Z",
-                "open_issues": 0,
-                "owner": "mikeroyal",
-                "repo": "CUDA-Guide",
-                "stars": 79,
-                "topics": [
-                  "awesome",
-                  "awesome-list",
-                  "awesome-readme",
-                  "cuda",
-                  "cuda-development",
-                  "cuda-driver",
-                  "cuda-kernels",
-                  "cuda-library",
-                  "cuda-opengl",
-                  "cuda-programming",
-                  "cuda-support",
-                  "cuda-toolkit",
-                  "deep-learning",
-                  "gpgpu",
-                  "gpgpu-computing",
-                  "gpu",
-                  "graphics-programming",
-                  "machine-learning",
-                  "resources"
-                ]
-              },
-              "first_seen": "2026-08-28T15:41:02.816Z"
-            }
-          ],
-          "description": null,
-          "node_type": "group",
-          "title": "Contribute"
         }
       ],
       "title": "Python Development"
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-02T10:03:33.103Z",
+    "last_updated": "2026-10-03T04:31:31.741Z",
     "original_repository_info": {
       "archived": false,
       "description": "CUDA Guide",
