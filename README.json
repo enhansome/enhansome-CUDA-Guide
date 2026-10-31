@@ -19,7 +19,7 @@
             "open_issues": 0,
             "owner": "NVIDIA",
             "repo": "nvidia-docker",
-            "stars": 17604,
+            "stars": 17605,
             "topics": [
               "cuda",
               "docker",
@@ -42,10 +42,10 @@
             "language": "C++",
             "license": "NOASSERTION",
             "last_commit": "2026-10-28T20:27:07Z",
-            "open_issues": 813,
+            "open_issues": 822,
             "owner": "NVIDIA",
             "repo": "cutlass",
-            "stars": 10679,
+            "stars": 10681,
             "topics": [
               "cpp",
               "cuda",
@@ -158,8 +158,8 @@
             "id": 152616802,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-30T07:36:15Z",
-            "open_issues": 784,
+            "last_commit": "2026-10-30T22:04:31Z",
+            "open_issues": 782,
             "owner": "NVIDIA",
             "repo": "cuml",
             "stars": 5315,
@@ -255,8 +255,8 @@
             "id": 233147271,
             "language": "C++",
             "license": "MIT",
-            "last_commit": "2026-10-30T08:36:02Z",
-            "open_issues": 149,
+            "last_commit": "2026-10-31T06:06:26Z",
+            "open_issues": 148,
             "owner": "Azure",
             "repo": "azure-sdk-for-cpp",
             "stars": 206,
@@ -309,8 +309,8 @@
             "id": 111860063,
             "language": "C++",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-30T08:24:06Z",
-            "open_issues": 209,
+            "last_commit": "2026-10-31T08:44:53Z",
+            "open_issues": 211,
             "owner": "googleapis",
             "repo": "google-cloud-cpp",
             "stars": 660,
@@ -345,11 +345,11 @@
             "id": 68312233,
             "language": "CMake",
             "license": "MIT",
-            "last_commit": "2026-10-29T23:53:44Z",
-            "open_issues": 1071,
+            "last_commit": "2026-10-31T06:47:00Z",
+            "open_issues": 1085,
             "owner": "microsoft",
             "repo": "vcpkg",
-            "stars": 27556,
+            "stars": 27557,
             "topics": [
               "c",
               "cmake",
@@ -377,11 +377,11 @@
             "id": 9988318,
             "language": "C#",
             "license": "MIT",
-            "last_commit": "2026-05-18T12:47:02Z",
-            "open_issues": 347,
+            "last_commit": "2026-10-30T21:33:48Z",
+            "open_issues": 348,
             "owner": "mono",
             "repo": "CppSharp",
-            "stars": 3407,
+            "stars": 3408,
             "topics": [
               "bindings",
               "bridge",
@@ -487,10 +487,10 @@
             "language": "C++",
             "license": "NOASSERTION",
             "last_commit": "2026-10-24T12:55:41Z",
-            "open_issues": 53,
+            "open_issues": 56,
             "owner": "gabime",
             "repo": "spdlog",
-            "stars": 29720,
+            "stars": 29725,
             "topics": [
               "cpp",
               "cpp11",
@@ -525,7 +525,7 @@
                 "open_issues": 19,
                 "owner": "ForrestKnight",
                 "repo": "open-source-cs-python",
-                "stars": 3960,
+                "stars": 3961,
                 "topics": [
                   "computer-science"
                 ]
@@ -577,11 +577,11 @@
                 "id": 175129788,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-29T23:34:49Z",
+                "last_commit": "2026-10-30T17:49:37Z",
                 "open_issues": 384,
                 "owner": "microsoft",
                 "repo": "pyright",
-                "stars": 15720,
+                "stars": 15721,
                 "topics": []
               },
               "first_seen": "2026-08-28T15:41:02.816Z"
@@ -602,7 +602,7 @@
                 "open_issues": 497,
                 "owner": "aws",
                 "repo": "chalice",
-                "stars": 11059,
+                "stars": 11061,
                 "topics": [
                   "aws",
                   "aws-apigateway",
@@ -634,7 +634,7 @@
                 "open_issues": 357,
                 "owner": "httpie",
                 "repo": "cli",
-                "stars": 38680,
+                "stars": 38687,
                 "topics": [
                   "api",
                   "api-client",
@@ -676,7 +676,7 @@
                 "open_issues": 8,
                 "owner": "pypa",
                 "repo": "pipenv",
-                "stars": 25017,
+                "stars": 25019,
                 "topics": [
                   "packaging",
                   "pip",
@@ -703,7 +703,7 @@
                 "open_issues": 225,
                 "owner": "google",
                 "repo": "python-fire",
-                "stars": 28224,
+                "stars": 28226,
                 "topics": [
                   "cli",
                   "python"
@@ -727,7 +727,7 @@
                 "open_issues": 288,
                 "owner": "bottlepy",
                 "repo": "bottle",
-                "stars": 8802,
+                "stars": 8800,
                 "topics": [
                   "bottle",
                   "python",
@@ -827,7 +827,7 @@
                 "open_issues": 194,
                 "owner": "spotify",
                 "repo": "luigi",
-                "stars": 18780,
+                "stars": 18781,
                 "topics": [
                   "hadoop",
                   "luigi",
@@ -850,11 +850,11 @@
                 "id": 1377867,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-27T22:12:54Z",
-                "open_issues": 9,
+                "last_commit": "2026-10-30T18:29:21Z",
+                "open_issues": 12,
                 "owner": "locustio",
                 "repo": "locust",
-                "stars": 28253,
+                "stars": 28254,
                 "topics": [
                   "benchmarking",
                   "http",
@@ -887,7 +887,7 @@
                 "open_issues": 261,
                 "owner": "explosion",
                 "repo": "spaCy",
-                "stars": 34003,
+                "stars": 34005,
                 "topics": [
                   "ai",
                   "artificial-intelligence",
@@ -920,7 +920,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-30T10:28:33.093Z",
+    "last_updated": "2026-10-31T09:58:03.670Z",
     "original_repository_info": {
       "archived": false,
       "description": "CUDA Guide",
